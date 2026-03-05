@@ -58,3 +58,5 @@ singularity pull docker://ghcr.io/schapirolabor/multiplex_codex:v1.1.0
 ``` bash
 singularity exec --bind $path_to_your_local_cycle_folder:/mnt,$path_to_your_local_output_folder:/media --no-home $path_to_container python staging/codex2mc/codex2mc.py -i /mnt/$path_to_your_local_cycle_folder -o /media/$path_to_your_local_output_folder
 ```
+
+

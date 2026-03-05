@@ -1,6 +1,6 @@
 import argparse
 import pathlib
-from codex2mc.version import __version__
+from codex2mc import __version__
 
 #---CLI-BLOCK---#
 def get_args():

@@ -8,3 +8,6 @@ dependencies:
   - conda-forge::tifffile
   - pandas
   - conda-forge::beautifulsoup4
+  - pip:
+    - "BaSiCPy"
+    - "codex2mc"
